@@ -9,8 +9,8 @@ services:
     volumes:
       - ./config:/app/config
     environment:
-      - TOKEN=6921765635:AAHB1YjSKdJ1-4NgrfbyLCChF7gCxmKuATU  # get it from @BotFather
-      - MANAGER=1234567890  # get it from @userinfobot, can be a list (e.g., 1234567890;987654321)
+      - TOKEN=5498564757:AAFF8T0b-x6pGQjZnu3TDytCb-7N9bewBIk  # get it from @BotFather
+      - MANAGER=2064503395  # get it from @userinfobot, can be a list (e.g., 1234567890;987654321)
 
 # ↓------ To disable sending via Telegraph, comment out this area ------↓ #
 # Get Telegraph API access tokens: https://api.telegra.ph/createAccount?short_name=RSStT&author_name=Generated%20by%20RSStT&author_url=https%3A%2F%2Fgithub.com%2FRongronggg9%2FRSS-to-Telegram-Bot
@@ -18,11 +18,11 @@ services:
 # If you have a lot of subscriptions, make sure to get at least 5 tokens.
 #                            ↓ Replace with your access tokens ↓
       - TELEGRAPH_TOKEN=
-        1a23b456c78de90f1a23b456c78de90f1a23b456c78de90f1a23b456c78d
-        1a23b456c78de90f1a23b456c78de90f1a23b456c78de90f1a23b456c78d
-        1a23b456c78de90f1a23b456c78de90f1a23b456c78de90f1a23b456c78d
-        1a23b456c78de90f1a23b456c78de90f1a23b456c78de90f1a23b456c78d
-        1a23b456c78de90f1a23b456c78de90f1a23b456c78de90f1a23b456c78d
+        bff6a636df8b0f6cb975c96e4401ff4377b9ccd971e5e9d9b92d25db93ea
+        6a04fe140da9d4936b571201ac9e1e36466bee021e0d20782f67f0ed6ab5
+        76881e452521c17443df07fbed2fd3daf6436617e44c36548e26f37a9acd
+        daddf039cbb168ffad4fae574f7e4a8d0fadf6be48ee3f8529f62cd73387
+        0cc7f89431a7d8f057591e5177ff132a9157e00e4ed648feebc5a0fc47d6
 # ↑------ To disable sending via Telegraph, comment out this area ------↑ #
 
 # Please read https://github.com/Rongronggg9/RSS-to-Telegram-Bot/blob/master/docs/advanced-settings.md for more details.
